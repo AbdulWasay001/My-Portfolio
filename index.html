@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasay Khan 001 | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Wasay Khan 001</h1>
+            <div class="role">Full Stack Developer</div>
+            <p>Building exceptional digital experiences with modern web technologies. Passionate about clean code, scalable architecture, and innovative solutions.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View My Work</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate full stack developer with expertise in creating scalable web applications. With a strong foundation in both frontend and backend technologies, I deliver comprehensive solutions that solve real-world problems.</p>
+                    <p>I believe in writing clean, maintainable code and continuously learning new technologies. My approach combines technical excellence with user-centric design principles.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Satisfaction Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>What I Do</h3>
+                    <p><strong>Frontend Development:</strong> Creating responsive, interactive user interfaces with React, Vue, and vanilla JavaScript. Focusing on performance and accessibility.</p>
+                    <p><strong>Backend Development:</strong> Building robust APIs and server applications with Node.js, Express, and databases like MongoDB and PostgreSQL.</p>
+                    <p><strong>Full Stack Solutions:</strong> Architecting complete web applications from concept to deployment, ensuring scalability and maintainability.</p>
+                    <p><strong>DevOps & Deployment:</strong> Managing cloud infrastructure, CI/CD pipelines, and containerization with Docker and Kubernetes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <p>Advanced component design and state management</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🟨</div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, async/await, event handling</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS/Tailwind</h3>
+                    <p>Responsive design and animations</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🟢</div>
+                    <h3>Node.js</h3>
+                    <p>Express.js, REST APIs, real-time applications</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Databases</h3>
+                    <p>MongoDB, PostgreSQL, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐳</div>
+                    <h3>DevOps</h3>
+                    <p>Docker, AWS, Heroku, CI/CD</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📘</div>
+                    <h3>TypeScript</h3>
+                    <p>Type-safe applications, interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧪</div>
+                    <h3>Testing</h3>
+                    <p>Jest, Mocha, unit and integration tests</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Optimization, lazy loading, caching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured e-commerce solution with real-time inventory management, secure payment processing, and admin dashboard.</p>
+                        <div class="tech-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                        <button class="btn btn-secondary project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">💬</div>
+                    <div class="project-info">
+                        <h3>Real-Time Chat Application</h3>
+                        <p>Collaborative messaging platform with user authentication, typing indicators, message history, and file sharing capabilities.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <button class="btn btn-secondary project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Advanced data visualization tool with real-time metrics, custom reports, and predictive analytics using machine learning.</p>
+                        <div class="tech-tags">
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                        <button class="btn btn-secondary project-btn">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <p>Send me a message and I'll respond directly to your email!</p>
+                <p style="color: #0d5f2f; font-weight: 600; margin-top: 1rem;">📧 <strong>wasay.adnan15431@gamil.com</strong></p>
+            </div>
+            <div class="contact-content">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/AbdulWasay001" target="_blank">GitHub</a>
+                <a href="mailto:wasay.addan15431@gamil.com">Email</a>
+            </div>
+            <p>&copy; 2026 Wasay Khan 001. All rights reserved. | Full Stack Developer | Building the Future</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
